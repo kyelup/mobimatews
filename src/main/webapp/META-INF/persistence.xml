@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="MobiMateDb">
+		<class>st.isacc.entity.TblAssinedTask</class>
+		<class>st.isacc.entity.TblCurrentLoc</class>
+		<class>st.isacc.entity.TblDeclineReason</class>
+		<class>st.isacc.entity.TblDeviceToken</class>
+		<class>st.isacc.entity.TblHistoryLoc</class>
+		<class>st.isacc.entity.TblImageInfo</class>
+		<class>st.isacc.entity.TblIncident</class>
+		<class>st.isacc.entity.TblIncidentNo</class>
+		<class>st.isacc.entity.TblMessage</class>
+		<class>st.isacc.entity.TblMessageContact</class>
+		<class>st.isacc.entity.TblMessageGroup</class>
+		<class>st.isacc.entity.TblMessageGroupMember</class>
+		<class>st.isacc.entity.TblMessageGroupMessage</class>
+		<class>st.isacc.entity.TblMessageReadStatu</class>
+		<class>st.isacc.entity.TblMessageReadStatuPK</class>
+		<class>st.isacc.entity.TblOnlineUser</class>
+		<class>st.isacc.entity.TblTask</class>
+		<class>st.isacc.entity.TblUser</class>
+	</persistence-unit>
+</persistence>
